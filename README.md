@@ -15,7 +15,7 @@
 </ol>
 
 
-<h2> Comandos para copilar y ejecutar el programa: </h2>
+<h2> Comandos para copilar y ejecutar el codigo: </h2>
 
    <pre><code> $ cd webcam_capture </code></pre>
    <pre><code> $ mkdir build </code></pre>
