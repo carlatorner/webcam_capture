@@ -49,6 +49,13 @@ int main(int argc, char *argv[])
             std::cout << "No frame" << std::endl;
             cv::waitKey();
         }
+	    
+	// Get central pixel coordinates.(x,y)
+	int central_pixel_y = image.rows/2;
+	int central_pixel_x = image.cols/2;
+
+        // Print central pixel coordinates
+	std::cout << "The central pixel is at: " << central_pixel_x << "x" << central_pixel_y << std::endl;
 
         //show image in a window
         cv::imshow("Output Window", image);
